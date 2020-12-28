@@ -1,2 +1,2 @@
-# blog
-Testing out a Jekyll blog
+# Personal Blog
+Check out my page! URL: https://azsprague.github.io/
