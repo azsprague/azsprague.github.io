@@ -13,3 +13,11 @@ Praesent congue finibus tincidunt. Mauris vel dapibus ipsum. Nam venenatis elit 
 ### Lorem Ipsum
 
 Nunc semper elit in tortor scelerisque pellentesque. Donec quis fringilla mauris. Curabitur scelerisque molestie felis at tempor. Donec vitae lacus imperdiet, tincidunt metus vel, ullamcorper tellus. Ut eget nisl fermentum, ornare justo non, dictum nisi. Proin porttitor, felis consectetur consectetur scelerisque, nibh risus pretium elit, a luctus neque ex eu ipsum. Vestibulum suscipit tempus ex, id suscipit massa tristique et. Ut ac nulla at elit tempus vulputate quis non mi. Sed efficitur aliquam ipsum. Maecenas porta, neque eu venenatis maximus, odio eros rutrum lacus, at lacinia metus mauris non ipsum. Nulla quis cursus sapien, a finibus elit. Duis ullamcorper tempus neque quis aliquet. Nunc consectetur, sem ut vulputate finibus, ligula ex fringilla diam, vel aliquam diam nulla vel nunc. Mauris sollicitudin, arcu in bibendum lobortis, nibh velit consequat purus, sed tincidunt tellus velit et mi. Nullam lectus purus, finibus condimentum orci a, condimentum consectetur neque. Phasellus tincidunt tortor urna, quis hendrerit libero aliquet vel.  
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
