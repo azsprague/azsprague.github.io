@@ -28,7 +28,7 @@ twitter_username:
 github_username:  azsprague
 
 # Build settings
-theme: jekyll-theme-minimal
+theme: jekyll-theme-slate
 plugins:
   - jekyll-feed
 
