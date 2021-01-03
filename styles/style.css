@@ -1,29 +1,35 @@
 body {
     background-color: #f5f5f5;
     color: #121316;
-    font-family: Georgia, Times, "Times New Roman", serif;
+    font-family: "Libre Baskerville", "Times New Roman", Times, serif;
     font-size: 16px;
     margin: 0;
 }
 
 h1 {
-    font-family: 'Lora';
+    font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
     font-size: 50px;
     font-weight: bold;
 }
 
+h2 {
+    font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+}
+
 h3 {
+    font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
     margin-bottom: 1px;
     color: #5b9279;
 }
 
 h5 {
+    font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
     margin-top: 1px;
     color: #555
 }
 
 p {
-    font-family: 'Alegreya';
+    font-family: "Libre Baskerville", "Times New Roman", Times, serif;
 }
 
 img.rounded {
@@ -109,4 +115,25 @@ img.rounded {
 
 .navbar a.active {
     color: #4CAF50;
+}
+
+.typewriter h1 {
+    border-right: solid 3px black;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.typewriter h1 {
+    animation: animated-text 4s steps(29,end) 1s 1 normal both,
+    animated-cursor 600ms steps(29,end) infinite;
+}
+
+@keyframes animated-text{
+    from{width: 0;}
+    to{width: 525px;}
+}
+
+@keyframes animated-cursor{
+    from{border-right-color: black;}
+    to{border-right-color: transparent;}
 }
