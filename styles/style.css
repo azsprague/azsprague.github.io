@@ -122,9 +122,6 @@ img.rounded {
     border-right: solid 0.05em black;
     white-space: nowrap;
     overflow: hidden;
-}
-
-.typewriter h1 {
     animation: animated-text 4s steps(29,end) 1s 1 normal both,
     animated-cursor 600ms steps(29,end) infinite;
 }
