@@ -12,6 +12,16 @@ h1 {
     font-weight: bold;
 }
 
+h3 {
+    margin-bottom: 1px;
+    color: #5b9279;
+}
+
+h5 {
+    margin-top: 1px;
+    color: #555
+}
+
 p {
     font-family: 'Alegreya';
 }
