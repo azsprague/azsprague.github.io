@@ -158,10 +158,10 @@ img.rounded {
 @media screen and (max-width: 1020px) {
     h1, h2, h3, h5, .container, .typewriter {
         float: none;
-        width: 80%;
+        width: 85%;
     }
     .navbar a {
-        width: 80%;
+        width: 85%;
         font-size: 3em;
     }
     h1, .typewriter h1 {
