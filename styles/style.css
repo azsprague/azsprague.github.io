@@ -1,3 +1,4 @@
+/** ----- General Site Preferences ----- **/
 body {
     background-color: #f5f5f5;
     color: #121316;
@@ -32,7 +33,10 @@ p {
     font-family: "Libre Baskerville", "Times New Roman", Times, serif;
     font-size: 1.15em;
 }
+/** --------------------------------------------------------- **/
 
+
+/* Styling for Profile Picture */
 img.rounded {
     object-fit: cover;
     border-radius: 50%;
@@ -40,6 +44,8 @@ img.rounded {
     width: 7em;
 }
 
+
+/* General Container Element */
 .container {
     width: 60%;
     padding-top: 1em;
@@ -47,6 +53,7 @@ img.rounded {
     margin: auto;
 }
 
+/* ----- Column and Row Styling ----- */
 .column {
     float: left;
     width: 33.33%;
@@ -59,7 +66,10 @@ img.rounded {
     clear: both;
     display: table;
 }
+/** --------------------------------------------------------- **/
 
+
+/** ----- Top and Bottom Buffer Styling ----- **/
 .topbuffer {
     background-color: #5b9279;
     overflow: hidden;
@@ -93,7 +103,10 @@ img.rounded {
     text-decoration: none;
     font-size: 0.7em;
 }
+/** --------------------------------------------------------- **/
 
+
+/** ----- Navigation Bar Styling ----- **/
 .navbar {
     overflow: hidden;
     padding-top: 1.33em;
@@ -117,8 +130,10 @@ img.rounded {
 .navbar a.active {
     color: #4CAF50;
 }
+/** -------------------------------------------------------------- **/
 
-/** Typewriter Styling and Animation Start **/
+
+/** ----- Typewriter Styling and Animation ----- **/
 .typewriter h1 {
     border-right: solid 0.05em black;
     white-space: nowrap;
@@ -136,8 +151,10 @@ img.rounded {
     from{border-right-color: black;}
     to{border-right-color: transparent;}
 }
-/** Typewriter End **/
+/** --------------------------------------------------------- **/
 
+
+/* A background element */
 .bg {
     position: relative;
     background-attachment: fixed;
@@ -147,6 +164,7 @@ img.rounded {
     opacity: 95%;
 }
 
+
 /* Enable smooth scrolling, unless the user has a preference */
 @media screen and (prefers-reduced-motion: no-preference) {
     html {
@@ -154,7 +172,8 @@ img.rounded {
     }
 }
 
-/* Changes for Mobile/Smaller Screens */
+
+/** ----- Changes for Mobile/Smaller Screens ----- **/
 @media screen and (max-width: 1020px) {
     h1, h2, h3, h5, .container, .typewriter {
         float: none;
@@ -188,5 +207,5 @@ img.rounded {
         min-height: 2em;
         font-size: 1em;
     }
-
 }
+/** --------------------------------------------------------- **/
