@@ -157,22 +157,27 @@ img.rounded {
         width: 80%;
     }
     .navbar a {
-        float: top;
         width: 80%;
+        font-size: 3em;
     }
-    h1 {
-        font-size: 2em;
+    h1, .typewriter h1 {
+        font-size: 4em;
     }
     h2 {
-        font-size: 1.8em;
+        font-size: 3em;
     }
     h3 {
-        font-size: 1.7em;
+        font-size: 2em;
     }
     h5, #quoteDisplay {
-        font-size: 1em;
+        font-size: 1.25em;
     }
     p {
-        font-size: 1.3em;
+        font-size: 1.75em;
+    }
+    img.rounded {
+        margin-top: 5em;
+        height: 20em;
+        width: 20em;
     }
 }
