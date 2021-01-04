@@ -185,8 +185,8 @@ img.rounded {
         width: 20em;
     }
     .topbuffer, .bottombuffer, .bottombuffer a {
-        min-height: 3em;
-        font-size: 2em;
+        min-height: 2em;
+        font-size: 1em;
     }
 
 }
