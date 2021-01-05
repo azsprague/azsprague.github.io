@@ -29,7 +29,7 @@ h5 {
     color: #555
 }
 
-p {
+p, li {
     font-family: "Libre Baskerville", "Times New Roman", Times, serif;
     font-size: 1.15em;
 }
@@ -195,7 +195,7 @@ img.rounded {
     h5, #quoteDisplay {
         font-size: 2em;
     }
-    p {
+    p, li {
         font-size: 2em;
     }
     img.rounded {
