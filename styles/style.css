@@ -9,29 +9,32 @@ body {
 
 h1 {
     font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
-    font-size: 3.15em;
+    font-size: 4em;
     font-weight: bold;
 }
 
 h2 {
     font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+    font-size: 2em;
 }
 
 h3 {
     font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+    font-size: 1.5em;
     margin-bottom: 0.1em;
     color: #5b9279;
 }
 
 h5 {
     font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+    font-size: 1.2em;
     margin-top: 0.1em;
     color: #555
 }
 
 p, li {
     font-family: "Libre Baskerville", "Times New Roman", Times, serif;
-    font-size: 1.15em;
+    font-size: 1.2em;
 }
 /** --------------------------------------------------------- **/
 
