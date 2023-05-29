@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Day 0: BWI -> KEF -> DUB"
+date:   2023-05-29 04:50:00 -0400
+categories: travel
+---
+At the airport!
