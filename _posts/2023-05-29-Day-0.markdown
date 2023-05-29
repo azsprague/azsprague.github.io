@@ -6,4 +6,4 @@ categories: travel
 ---
 At the airport!
 
-![Airport]({{ BASE_URL }}/_media/IMG_5497.jpeg)
+![Airport]({{ BASE_PATH }}/_media/IMG_5497.jpeg)
